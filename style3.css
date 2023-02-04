@@ -2,13 +2,211 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Lato, sans-serif;
+}
+
+/* css de home */
+
+#font-general {
+    font-family: cursive ;
+}
+
+
+#img-diseño-1 {
+    width: 100%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+
+
+}
+
+#logo2 {
+    position: absolute;
+    top: 330px;
+    left: 980px;
+    width: 180px;
+    height: 180px;
+    background-color: black;
+
+}
+
+#encabezado-home {
+    font-size: 60px;
+    position: absolute;
+    left: 20px;
+    color: black;
+    text-shadow: 7px 2px 10px #faf60f;
+}
+
+#titulo-principal {
+    display: inline-block;
+    background: black;
+    font-size: 24px;
+    height: 38px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+#barra-navegacion-home {
+    display: block;
+    margin-left: 70px;
+    margin-top: 60px;
+    width: 210px;
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px 40px;
+}
+
+.caja {
+    height: 100px;
+}
+
+#eventos {
+    position: relative;
+    left:370px;
+    top: -244px;
+    width: 700px;
+    height: 400px;
+    font-size: 22px;
+}
+
+#fecha {
+    font-style: oblique;
+}
+
+#evento {
+    text-indent: 22px;
+}
+
+#footer-1 {
+    background-image: url(./imagenes/imagen_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    width:100%;
+    height: 150px;
+    
+}
+
+#texto-footer-1 {
+    color: #faf602;
+    text-align: center;
+    margin-top: 75px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 7px 2px 10px #0c0c0c;
+}
+
+
+/* css de about */
+
+#font-general-about {
+    font-family: cursive ;
+}
+
+#img-diseño01 {
+    width: 100%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+
+#logo3 {
+    position: absolute;
+    top: 330px;
+    left: 980px;
+    width: 180px;
+    height: 180px;
+    background-color: black;
+
+}
+
+#cabecera2 {
+    font-size: 60px;
+    position: absolute;
+    left: 20px;
+    color: black;
+    text-shadow: 7px 2px 10px #faf60f;
+}
+
+#sub-titulo-1 {
+    display: inline-block;
+    background: black;
+    font-size: 24px;
+    height: 38px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+#barra-navegacion-about {
+    display: block;
+    margin-left: 70px;
+    margin-top: 60px;
+    width: 210px;
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px 40px;
+}
+
+.objetivos {
+    position: relative;
+    left: 310px;
+    bottom: 256px;
+    width: 970px;
+    height: 165px;
+    font-size: 22px
+}
+
+
+#descripcion {
+    text-indent: 22px;
+}
+
+#imagen-descriptiva {
+    background-image: url(./imagenes/imagen_2.jpg);
+    width: 300px;
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    margin: 20px 0px 100px 30px;
+    
+    
+}
+
+#footer-about {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    width:100%;
+    height: 150px;
+    
+}
+
+#texto-footer-about {
+    color: #fcfcfc;
+    text-align: center;
+    margin-top: 75px;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 
 
 /* style desde contact a game */
-header {
+.encabezado {
     background-color: rgb(185 62 41);
     padding: 5px;
     height: 150px;
@@ -16,6 +214,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Lato, sans-serif;
 }
 
 #logo {
@@ -27,7 +226,7 @@ header {
     margin-left: 50px;
 }
 
-nav {
+#barra-navegacion {
     background-color: rgb(95 161 153);
     border-top: 2px solid #f8e12e;
     border-bottom: 2px solid #f8e12e;
@@ -39,10 +238,11 @@ nav {
     height: 50px;
     font-size: 22px;
     gap: 40px;
+    font-family: Lato, sans-serif;
 
 }
 
-nav a {
+#navegacion {
     color: #f3ebeb;
     text-decoration: none;
     width: max-content;
@@ -52,14 +252,14 @@ nav a {
     text-shadow: 3px 3px 10px black;
 }
 
-nav a:hover {
+#navegacion:hover {
     color: rgb(185 62 41);
     transition-duration: .3s, .8s;
     transform: scale(1.08);
 
 }
 
-h1 {
+#titulo-general {
     font-family: Lato, sans-serif;
     margin: 20px;
     color: #f8e12e;
@@ -94,6 +294,7 @@ h1 {
     justify-content: center;
     align-items: center;
     position: absolute;
+    font-family: Lato, sans-serif;
 
 }
 
@@ -159,10 +360,12 @@ dt {
     font-weight: bold;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-family: Lato, sans-serif;
 }
 
 dd {
     font-size: large;
+    font-family: Lato, sans-serif;
 }
 
 
@@ -199,11 +402,13 @@ dd {
     min-height: 700px;
     padding: 25px;
     text-align: justify;
+    font-family: Lato, sans-serif;
 }
 
 .reglas {
     font-size: 23px;
     margin: 25px;
+    font-family: Lato, sans-serif;
 }
 
 
@@ -221,6 +426,7 @@ table {
     border-collapse: collapse;
     border: 3px solid black;
     box-shadow: 9px 12px 18px -1px rgb(0, 0, 0);
+    font-family: Lato, sans-serif;
 
 }
 
@@ -230,7 +436,7 @@ td {
     padding: 10px;
     text-align: center;
     font-size: 25px;
-
+    font-family: Lato, sans-serif;
     background-color: #e2e2e2da;
 }
 
@@ -247,11 +453,13 @@ th {
     text-shadow: 3px 3px 10px rgb(0, 0, 0);
     color:#f3ebeb;
     box-shadow: 5px 7px 23px -1px rgb(0, 0, 0);
+    font-family: Lato, sans-serif;
 }
 
 #email-coordinador {
     color: antiquewhite;
     text-decoration: none;
+    font-family: Lato, sans-serif;
 }
 
 #email-coordinador:hover {
@@ -266,7 +474,7 @@ th {
 
 /* footer general */
 
-footer {
+#footer-general {
     display: inline-block;
     background-color: rgb(185 62 41);
     width: 100%;
