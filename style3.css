@@ -457,7 +457,7 @@ iframe {
 
 /* /* css registration */
 
-.conteiner-centro-6{
+.conteiner-centro-6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -627,4 +627,91 @@ label#negrita {
     font-size: 20px;
     font-weight: bolder;
     font-family: Lato, sans-serif;
+    
+}
+
+
+/* responsive */
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .encabezado {
+        height: 70px;
+    }
+
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    #titulo-general {
+        font-size: medium;
+        text-align: initial ;
+    }
+
+    #barra-navegacion {
+        height: 30px;
+        gap: 0;
+        flex-wrap: nowrap;
+
+    }
+
+    #navegacion {
+        font-size: 8px;
+        align-self: center;
+        padding: 5px;
+
+    }
+/* revisar */
+    #contenedor-fondo-2 {
+        height: 70vh;
+        width: 100vw;
+    }
+
+    #sub-titulo-2 {
+        font-size:12px;
+        padding: 10px 20px;
+        position: absolute;
+        top: 127px;
+    }
+
+    article .info_evento {
+        position: absolute;
+        top: 193px;
+    }
+
+    article .info_evento {
+        height: 245px;
+        width: 95vw;
+        padding: 10px;
+    }
+
+    #evento {
+        font-size: small;
+    }
+
+    #fecha {
+        font-size: small;
+    }
+    
+    #img-diseño-1 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: 196px;
+        right: 15px;
+        box-shadow: 1px 2px 9px -1px rgb(0 0 0)
+    }
+
+    #footer-general {
+        height: 70px;
+    }
+
+    #texto-footer {
+        font-size: x-small;
+        margin-top: 28px;
+    }
 }
